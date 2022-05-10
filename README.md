@@ -19,11 +19,11 @@ To address this problem, A new type of RNNs called **LSTMs** (Long Short Term Me
 
 The project flow is briefly described in the following steps:
 
-1. ## Loading the Dataset
+## 1. Loading the Dataset
 
  We have used Gutenberg eBook of The Adventures of Sherlock Holmes to train our model. (https://www.gutenberg.org/files/1661/1661-0.txt)
 
-2. ## Data Preprocessing
+## 2. Data Preprocessing
 
 - ### Generating Sequence of N-gram Tokens
 
@@ -36,7 +36,7 @@ Now that we have generated a data-set which contains sequence of tokens, it is p
 To input this data into a learning model, we created N-grams sequence as predictors and the next word of the N-gram as label.
 
 
-3. ## Model Creation
+## 3. Model Creation
 A total of three layers are added in the model.
 - Input Layer : Takes the sequence of words as input
 - LSTM Layer : Computes the output using LSTM units. I have added 100 units in the layer, but this number can be fine tuned later.
@@ -45,7 +45,7 @@ A total of three layers are added in the model.
 
 We ran this model for total 50 epochs but it can be experimented further.
 
-4. ## Few Results:
+## 4. Few Results:
 
 Seed Text given as Input: *I could not help laughing at the ease with which he explained his process of deduction*
 
