@@ -1,6 +1,6 @@
 
 
-# Text Generation using RNNs and LSTMs
+# Text Generation using RNN and LSTM
 
 
 
